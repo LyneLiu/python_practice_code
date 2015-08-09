@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 
-"makeTextFile.py -- create text file and write lines to the file"
+"makeTextFile01.py -- create text file and write lines to the file"
 
 import os
 from string import join
