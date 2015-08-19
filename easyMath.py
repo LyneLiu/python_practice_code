@@ -35,6 +35,10 @@ def main():
             choice = raw_input("Play again?[y]").lower()
             if choice and choice[0] == 'n':
                 break
+            elif choice and choice[0] != 'y':
+                print "choose yes?"
+            else:
+                pass
         except (KeyboardInterrupt,EOFError):
             break
 
